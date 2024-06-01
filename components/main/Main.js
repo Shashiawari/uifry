@@ -63,9 +63,9 @@ const Main = () => {
       </defs>
     </svg>
   </div>
-      <div className="container-fluid mx-5">
+      <div className="container-fluid ">
        
-        <div className="row">
+        <div className="row mx-5">
           <div className="col-12 col-lg-6">
             <h1 className="main-head mt-5">
               make the best financial decisions
@@ -74,9 +74,10 @@ const Main = () => {
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
             </p>
-            <div className="twobtn">
-              <button className="main-btn">
+            <div className="twobtn" style={{display:"flex",alignItems:"center"}}>
+              <button className="main-btn ">
                 <svg
+                
                   width="135"
                   height="14"
                   viewBox="0 0 135 14"
@@ -94,7 +95,7 @@ const Main = () => {
                 </svg>
               </button>
               <svg
-                className="mx-5"
+                className=" mx-3"
                 width="154"
                 height="29"
                 viewBox="0 0 154 29"
@@ -115,7 +116,7 @@ const Main = () => {
             </div>
             <img src="https://res.cloudinary.com/dq7brjjnz/image/upload/v1717238973/5b157b26-665e-44b8-80d4-56b5492dedae.png" className="img-fluid"></img>
           </div>
-          <div className="col-12 col-lg-6 d-none d-lg-block">
+          <div className="col-12 text-center col-lg-6 d-none d-lg-block">
             <img
              
               src="https://res.cloudinary.com/dq7brjjnz/image/upload/v1717237849/f7847c2d-0a11-4e2d-951e-d4fc7c2b20ff.png"
