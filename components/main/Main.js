@@ -3,7 +3,7 @@ import "./Main.css";
 const Main = () => {
   return (
     <div className="main">
-    <div className="ecli-main d-none d-lg-block d-md-block">
+    <div className="ecli-main mt-2 d-none d-lg-block d-md-block">
     <svg
       width="517"
       height="430"
@@ -63,7 +63,7 @@ const Main = () => {
       </defs>
     </svg>
   </div>
-      <div className="container-fluid">
+      <div className="container-fluid mx-5">
        
         <div className="row">
           <div className="col-12 col-lg-6">
